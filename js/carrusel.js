@@ -30,7 +30,7 @@ setInterval(function(){
      
     nextSlider();
             
-}, 4000); //cada 4 segundos
+}, 6000); //cada 6 segundos
 
 /*--------------FUNCIONES-------------*/
 function circulos(){

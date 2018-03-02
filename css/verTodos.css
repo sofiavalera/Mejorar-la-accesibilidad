@@ -8,6 +8,42 @@ body{
   }
 }
 
+/*--AUDIO--*/
+.botones{
+    
+    margin-top: 1em;
+    width: 15em;
+    margin-left: 23em;
+}
+.botones img{
+    
+    width: 5em;
+}
+/*--IDIOMA--*/
+.idioma{
+    
+    color:white;
+}
+.idioma ul{
+    
+    display: flex;
+    margin-top: 3em;
+    list-style: none;
+}
+
+.idioma ul li a{
+    
+    padding: 1em;
+    color: white;
+    font-size: 1em;
+}
+
+.idioma ul li a:hover{
+    
+    color:darkgrey;
+}
+
+
 /*--PAGINAS--*/
 .pagignasNum ul li a{
     

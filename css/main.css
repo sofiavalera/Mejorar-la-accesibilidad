@@ -2,6 +2,40 @@ body{
     background-color: black;
 }
 
+/*--AUDIO--*/
+.botones{
+    
+    margin-top: 1em;
+    width: 15em;
+    margin-left: 23em;
+}
+.botones img{
+    
+    width: 5em;
+}
+/*--IDIOMA--*/
+.idioma{
+    
+    color:white;
+}
+.idioma ul{
+    
+    display: flex;
+    margin-top: 3em;
+}
+
+.idioma ul li a{
+    
+    padding: 1em;
+    color: white;
+    font-size: 1em;
+}
+
+.idioma ul li a:hover{
+    
+    color:darkgrey;
+}
+
 /*--IMAGEN NO DISPONIBLE--*/
 .noDisponible{
     margin-top: -2.5em;
@@ -249,7 +283,7 @@ input#buscar{
 .productos img{
     -webkit-transition:all .9s ease; /* Safari y Chrome */
     -moz-transition:all .9s ease; /* Firefox */
-    cursor: none;
+    cursor: pointer;
 }
 
 .productos:hover img{
